@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="text-center mt-4">
-                    <a href="promedioTresNotas.html" class="btn btn-secondary">Volver</a>
+                    <a href="promedioTresNotasAprobacion.html" class="btn btn-secondary">Volver</a>
                 </div>
             </div>
         </div>
