@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volumen de Piramide</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card shadow-lg p-4">
+                    <h1 class="text-center text-primary mb-4">Volumen Piramide</h1>
+                    <img src="./img/piramideFormula.png" alt="" >
+                    <form action="resultadoVolumenPiramide.jsp">
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Altura:</label>
+                            <input type="number" class="form-control" id="altura" name="altura" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="sueldo" class="form-label">Lado de la base:</label>
+                            <input type="number" class="form-control" id="lado" name="lado" required>
+                        </div>
+                    
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary w-100">Calcular</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

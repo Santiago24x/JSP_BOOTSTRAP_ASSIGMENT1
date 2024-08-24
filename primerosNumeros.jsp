@@ -12,6 +12,7 @@
 
 <body>
     <div class="container mt-5">
+        <a href="index.html" class="btn btn-secondary">Volver al Menu</a>
         <h1 class="text-center mb-4 text-primary">Primeros 10 Numeros Enteros</h1>
         <div class="row row-cols-2 row-cols-md-5 g-4">
             <% 

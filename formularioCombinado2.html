@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Solicitud</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="d-flex justify-content-between mb-4">
+            <!-- Botón para volver al menú -->
+            <a href="index.html" class="btn btn-secondary">Volver al Menu</a>
+        </div>
+
+        <div class="">
+            <h1 class="card-title text-center mb-4 text-primary">Formulario descriptivo</h1>
+            <form action="resultadoFormulario2.jsp" method="post">
+                <!-- Casillas de texto -->
+                <div class="mb-3">
+                    <label for="txt1" class="form-label">Text</label>
+                    <input type="text" id="txt1" name="txt1" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="txt2" class="form-label">Text</label>
+                    <input type="text" id="txt2" name="txt2" class="form-control" required>
+                </div>
+
+                <!-- Radio buttons -->
+                <div class="mb-3">
+                    <label class="form-label">Radio:</label><br>
+                    <input type="radio" id="si" name="respuesta" value="Si">
+                    <label for="si" class="form-check-label">Si</label><br>
+                    <input type="radio" id="no" name="respuesta" value="No">
+                    <label for="no" class="form-check-label">No</label>
+                </div>
+
+                <!-- Checkboxes -->
+                <div class="mb-3">
+                    <label class="form-label">Checkbox:</label><br>
+                    <input type="checkbox" id="rojo" name="color" value="Rojo">
+                    <label for="rojo" class="form-check-label">Rojo</label><br>
+                    <input type="checkbox" id="verde" name="color" value="Verde">
+                    <label for="verde" class="form-check-label">Verde</label><br>
+                    <input type="checkbox" id="azul" name="color" value="Azul">
+                    <label for="azul" class="form-check-label">Azul</label>
+                </div>
+
+                <!-- Select -->
+                <div class="mb-3">
+                    <label for="opcion" class="form-label">Select:</label>
+                    <select id="opcion" name="opcion" class="form-select" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="Opcion 1">Opcion 1</option>
+                        <option value="Opcion 2">Opcion 2</option>
+                        <option value="Opcion 3">Opcion 3</option>
+                    </select>
+                </div>
+
+                <!-- Textarea -->
+                <div class="mb-3">
+                    <label for="descripcion" class="form-label">Textarea:</label>
+                    <textarea id="descripcion" name="descripcion" class="form-control" rows="4" required></textarea>
+                </div>
+
+                <!-- Botones de enviar y reestablecer -->
+                <div class="d-flex justify-content-between">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="reset" class="btn btn-secondary">Reestablecer</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

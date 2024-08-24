@@ -18,6 +18,7 @@
     </head>
 <body>
     <div class="container mt-5">
+        <a href="index.html" class="btn btn-secondary">Volver al Menu</a>
         <h1 class="text-center mb-4 text-primary">Primeros 100 Numeros y sus Cuadrados</h1>
         <div class="card">
             <div class="card-body">

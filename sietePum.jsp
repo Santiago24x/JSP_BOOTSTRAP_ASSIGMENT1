@@ -24,6 +24,7 @@
 
 
     <div class="container mt-5">
+        <a href="index.html" class="btn btn-secondary">Volver al Menu</a>
         <h1 class="text-center mb-4 text-primary">Siete "PUM"!</h1>
         <div class="row row-cols-2 row-cols-md-4 g-4">
             <% for (int i=1; i < 100; i++) { %>
